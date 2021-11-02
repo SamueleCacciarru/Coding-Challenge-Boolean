@@ -1,0 +1,77 @@
+body {
+    background-image: url(\img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contain {
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+}
+
+
+header {                                                              
+    color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > img {
+    margin-left: 25%;
+    max-width: 50%;
+    padding-top: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    color: green;
+}
+
+nav {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    background-color:greenyellow;
+
+}
+
+nav > div {
+    margin-left: auto;
+}
+
+.mono {
+    color: white;
+    margin: 50px 100px 50px 100px;
+}
+
+input[checkbox] {
+    display: inline;
+}
+
+
+#carica1{
+            background-color: orange;
+            width: 30%;
+            height: 25px;
+            border-radius: 10%;
+}
+
+#carica2{
+            background-color: greenyellow;
+            width: 60%;
+            height: 25px;
+            border-radius: 5%;
+}
+
+#carica3{
+            background-color: red;
+            width: 15%;
+            height: 25px;
+            border-radius: 5%;
+            margin-bottom: 50px;
+}
